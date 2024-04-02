@@ -1,1 +1,1 @@
-# planology-hrc.github.io
+# dataplan-hrc.github.io
