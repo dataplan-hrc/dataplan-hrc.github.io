@@ -76,3 +76,22 @@ $(document).ready(function() {
     bulmaSlider.attach();
 
 })
+
+var videoElement = document.getElementById("dollyzoom");
+
+// Function to change playback speed
+function changeSpeed(speed) {
+  videoElement.playbackRate = speed;
+}
+
+function createSpeedButtons() {
+  return `
+    <button onclick="changeSpeed(0.5)">0.5x</button>
+    <button onclick="changeSpeed(1.0)">1.0x</button>
+    <button onclick="changeSpeed(2.0)">2.0x</button>
+  `;
+}
+
+// Now you can append these buttons wherever needed in your HTML
+document.getElementById("button-container").innerHTML = createSpeedButtons();
+
