@@ -1,2 +1,0 @@
-(human_moves_br washingmachine cabinet bathroom kitchen)
-(human_picks soup cabinet kitchen)
